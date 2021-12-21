@@ -12,7 +12,7 @@ def run():
     x_test = one_preprocessing(test_data)
 
     model = RandomForestClassifier(
-        n_estimators=150, max_depth=6).fit(x_train, y_train)
+        n_estimators=190, max_depth=7).fit(x_train, y_train)
 
     predictions = model.predict(x_test)
 
